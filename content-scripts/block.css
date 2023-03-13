@@ -1,0 +1,54 @@
+.page-pet__container {
+  top: 0px;
+  position: absolute;
+  z-index: 1000000000;
+  cursor: pointer;
+}
+
+.inside-container {
+  position: relative;
+}
+
+.page-pet {
+  width: 200px;
+  filter: none !important;
+}
+
+.content-btn {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.remove-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.remove-btn > img {
+  filter: none !important;
+}
+
+.animate {
+  animation: float 10s;
+}
+
+.x {
+  animation: x 13s linear infinite alternate;
+}
+.y {
+  animation: y 7s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw - 200px));
+  }
+}
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vh - 250px));
+  }
+}

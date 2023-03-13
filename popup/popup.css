@@ -1,0 +1,114 @@
+.pet_picture {
+  width: 100px;
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+  object-fit: fit;
+  aspect-ratio: 1;
+  transition: transform 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body {
+  width: max-content;
+  margin: 0;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.popup-title {
+  font-weight: 900;
+  background-color: rgb(255, 123, 193);
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-left: 1rem;
+}
+
+.popup-content {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.gif {
+  max-width: 50px;
+  cursor: pointer;
+}
+
+.gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 1rem;
+}
+
+.search-container {
+  display: flex;
+}
+#submit-search {
+  width: 150px;
+}
+
+#gif-search {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #ea4c89;
+}
+
+#gif-search:focus {
+  outline: 1.5px solid #ea4c89;
+}
+
+.selected-image {
+  max-width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popup-btn {
+  width: 100%;
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
+}
