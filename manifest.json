@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "seal page pet",
-    "description": "get a page pet!",
-    "version": "1.0",
+    "name": "study break",
+    "description": "float fun gifs around your page for a lil study break!",
+    "version": "2.0",
     "action": {
         "default_popup": "popup/popup.html",
         "default_icon": "images/peticon.png"

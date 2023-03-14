@@ -57,29 +57,7 @@ async function getTenorImages(query) {
 function deleteElement(element) {
   element.remove();
 }
- 
-// function makeDraggable(el) {
-//   el.addEventListener("mousedown", function (e) {
-//     const parentBlock = el.parentNode;
-//     var offsetX =
-//       e.clientX - parseInt(window.getComputedStyle(parentBlock).left);
-//     var offsetY =
-//       e.clientY - parseInt(window.getComputedStyle(parentBlock).top);
- 
-//     function mouseMoveHandler(e) {
-//       parentBlock.style.top = e.clientY - offsetY + "px";
-//       parentBlock.style.left = e.clientX - offsetX + "px";
-//     }
- 
-//     function reset() {
-//       window.removeEventListener("mousemove", mouseMoveHandler);
-//       window.removeEventListener("mouseup", reset);
-//     }
- 
-//     window.addEventListener("mousemove", mouseMoveHandler);
-//     window.addEventListener("mouseup", reset);
-//   });
-// }
+
  
 function renderPagePet(shouldShowPagePet) {
   const allPagePets = document.querySelectorAll(".page-pet__container");
